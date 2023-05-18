@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { navbar } from "../utils/navbar";
 import Navbar from "../components/Navbar";
 import Loader from "../components/Loader";
+import NotFound from "../components/NotFound";
+import Login from "../components/Login";
 
 const Root = () => {
   const [loading, setLoading] = useState(false);
@@ -26,8 +28,9 @@ const Root = () => {
                 return <Route key={id} path={path} element={element} />;
               })}
             </Route>
-            <Route path="*" element={<h1>404 NOT FOUND</h1>} />
+            <Route path="*" element={<NotFound />} />
             <Route path="/" element={<Navigate to="/home" />} />
+            <Route path="/login" element={<Login />} />
           </Routes>
         </BrowserRouter>
       )}

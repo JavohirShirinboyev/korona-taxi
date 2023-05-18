@@ -1,4 +1,14 @@
+<=== 28.03.2023 ===>
+    1. navbar.ts file dagi componenta typeni kiritish ✔
+
 <=== 29.03.2023 ===>
-    1. NOT FOUNT Pages create
-    2. Navbar component create
+    1. NOT FOUNT Pages create ✔
+    2. Navbar component create ✔
+    3. Navbar responsiv ✔
+    4. navbar animation ✔
+
+<=== 03.04.2023 ===>
+    1. Generic button ✔
+    2. Home page create 
+    3. Home page responsive
     
