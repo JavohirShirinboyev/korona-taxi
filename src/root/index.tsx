@@ -29,8 +29,8 @@ const Root = () => {
               })}
             </Route>
             <Route path="*" element={<NotFound />} />
-            <Route path="/" element={<Navigate to="/home" />} />
-            <Route path="/login" element={<Login />} />
+            {/* <Route path="/" element={<Navigate to="/home" />} /> */}
+            <Route path="/" element={<Login />} />
           </Routes>
         </BrowserRouter>
       )}

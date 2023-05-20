@@ -28,9 +28,14 @@ const Container = styled.div`
 
 const LoginBox = styled.div`
     width: 350px;
-    height: 500px;
+    height: 400px;
     background-color: var(--textColorBlack);
     border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 `
 
 export { Container, LoginBox };

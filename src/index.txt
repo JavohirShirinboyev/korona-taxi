@@ -9,6 +9,15 @@
 
 <=== 03.04.2023 ===>
     1. Generic button ✔
-    2. Home page create 
-    3. Home page responsive
+    2. Home page create ✔
+    3. Home page responsive ✔
+    4. Order SubTitle ni to'g'irlash ✔
+
+<=== 21.05.2023 ===>
+    1. Order Component ni optimallashtirish
+    2. Home Page ni qaytadan ko'rish
+    3. Haydovchi componentni qilish 40%
+    4. Dosc yozish 5 varaq
+    5. Home pageda navbarning z-indexni to'g'irlash
+    6. Order component phone number contact qo'shish
     

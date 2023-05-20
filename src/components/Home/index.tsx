@@ -2,11 +2,18 @@ import React from "react";
 import { Container } from "reactstrap";
 import "./styled.css";
 import headerCar from "../../assets/header__car.png";
-import vector from "../../assets/Vector.png"
+import vector from "../../assets/Vector.png";
 import Button from "../Generic/Button";
 import { useNavigate } from "react-router-dom";
+import { useAuthState } from "react-firebase-hooks/auth";
+import auth from "../../firebase/config";
 
 const Home = () => {
+  const [user, loading, error] = useAuthState(auth);
+  const signOutClick = () => {
+    auth.signOut();
+    navigate("/")
+  }
   const navigate = useNavigate();
   return (
     <>

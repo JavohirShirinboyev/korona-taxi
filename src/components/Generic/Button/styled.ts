@@ -13,7 +13,7 @@ const Container = styled.button<ButtonProps>`
   height: ${({ height }) => (height ? `${height}px` : "56px")};
   width: ${({ width }) => (width ? `${width}px` : "220px")};
 
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   background-color: var(--bgColorWarning);
   color: var(--textColorBlack);
@@ -24,6 +24,7 @@ const Container = styled.button<ButtonProps>`
   :active {
     opacity: 0.7;
   }
+  font-family: "Montserrat", sans-serif;
 `;
 
 export { Container };
