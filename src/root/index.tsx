@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { navbar } from "../utils/navbar";
 import Navbar from "../components/Navbar";
 import Loader from "../components/Loader";
 import NotFound from "../components/NotFound";
 import Login from "../components/Login";
+import SignUp from "../components/SignUp";
 
 const Root = () => {
   const [loading, setLoading] = useState(false);
@@ -21,6 +22,8 @@ const Root = () => {
       {loading ? (
         <Loader />
       ) : (
+
+
         <BrowserRouter>
           <Routes>
             <Route element={<Navbar />}>
@@ -29,10 +32,12 @@ const Root = () => {
               })}
             </Route>
             <Route path="*" element={<NotFound />} />
-            {/* <Route path="/" element={<Navigate to="/home" />} /> */}
             <Route path="/" element={<Login />} />
+            <Route path="/signup" element={<SignUp />} />
           </Routes>
         </BrowserRouter>
+
+        
       )}
     </>
   );

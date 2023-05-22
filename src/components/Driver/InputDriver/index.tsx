@@ -2,7 +2,7 @@ import React, { forwardRef } from "react";
 import { ContainerInput, Icon, Wrapper } from "./style";
 
 interface TypeInputDriver {
-  type?: "text" | "password" | "number" | "tel" | "time" | "email";
+  type?: "text" | "password" | "number" | "tel" | "time" | "date";
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   pleceholder?: string;
   width?: number;

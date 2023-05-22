@@ -20,23 +20,24 @@ const Driver = () => {
     <DriverContainer>
       <Container>
         <MenuWrapper>
-          <h1 className="subTitle">Address</h1>
+          <h1 className="subTitle">Manzil va Vaqtni kiriting</h1>
           <Section>
-            <InputDriver pleceholder="Country" />
-            <InputDriver pleceholder="Region" />
-            <InputDriver pleceholder="City" />
-            <InputDriver pleceholder="Zip code" />
+            <InputDriver type="text" pleceholder="Qayirdan" />
+            <InputDriver type="text" pleceholder="Qayirga" />
+            <InputDriver type="date" pleceholder="Kun" />
+            <InputDriver type="time" pleceholder="Vaqti" />
           </Section>
-          <h1 className="subTitle">Apartment info</h1>
+          <h1 className="subTitle">Ma'lumotlar</h1>
           <Section>
-            <InputDriver pleceholder="Rooms" />
-            <InputDriver pleceholder="Size" />
-            <InputDriver pleceholder="Sort" />
+            <InputDriver type="text" pleceholder="kishi soni" />
+            <InputDriver type="text" pleceholder="Narx" />
+            <InputDriver type="text" pleceholder="Avtomobil turi" />
+            <InputDriver type="text" pleceholder="Avtomobil nomer" />
           </Section>
-          <h1 className="subTitle">Price</h1>
+          <h1 className="subTitle">Aloqa</h1>
           <Section>
-            <InputDriver pleceholder="Min price" />
-            <InputDriver pleceholder="Max price" />
+            <InputDriver type="text" pleceholder="Telefon raqam" />
+            <InputDriver type="text" pleceholder="Telegram user" />
           </Section>
         </MenuWrapper>
       </Container>

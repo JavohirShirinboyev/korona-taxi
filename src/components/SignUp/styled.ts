@@ -38,4 +38,9 @@ const LoginBox = styled.div`
     gap: 15px;
 `
 
-export { Container, LoginBox };
+const RadioContainer = styled.div`
+  display: flex;
+  gap: 15px;
+`
+
+export { Container, LoginBox, RadioContainer };
