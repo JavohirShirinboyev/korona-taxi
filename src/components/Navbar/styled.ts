@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 interface NavbarProps {
-  isMobile: boolean;
+  isMobile: number;
 }
 
 const Nav = styled.div`
@@ -84,6 +84,7 @@ const MobileContainer = styled.div<NavbarProps>`
   padding: 30px 0;
   border-top: 2px solid var(--textColorBlack);
   position: absolute;
+  z-index: 100;
 `;
 
 const MobileNav = styled.div`

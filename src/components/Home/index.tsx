@@ -23,19 +23,12 @@ const Home = () => {
             <div className="home__content">
               <div className="home__content__left">
                 <h1 className="home__title">
-                  Biz bilan maroqli <br /> sayohat qiling!
+                  Biz bilan maroqli sayohat qiling!
                 </h1>
                 <Button
                   onClick={() => navigate("/order")}
                   width={180}
                   height={50}
-                />
-              </div>
-              <div className="home__content__right">
-                <img
-                  className="home__header__img"
-                  src={headerCar}
-                  alt="Taxi image"
                 />
               </div>
             </div>
