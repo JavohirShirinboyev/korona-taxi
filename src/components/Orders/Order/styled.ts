@@ -85,6 +85,9 @@ const BottomContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  span {
+    padding: 0 10px;
+  }
 `;
 
 const PaddingBox = styled.div`

@@ -1,22 +1,22 @@
 [
     {
         "id": 1,
-        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/online-shop-api-ee5b5.appspot.com/o/1.png?alt=media&token=d9af925f-4e8c-485c-9d51-38e9b26d4e3b",
+        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/korona-taxi-ef833.appspot.com/o/1.png?alt=media&token=cd5d89f6-f113-4783-8f7d-1f7b7a61e1ef",
         "title": "24 soat xizmat ko'rsatish"
     },
     {
         "id": 2,
-        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/online-shop-api-ee5b5.appspot.com/o/2.png?alt=media&token=7f2b7145-7073-4d42-a928-39dc15b7b97f",
+        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/korona-taxi-ef833.appspot.com/o/2.png?alt=media&token=e0913473-83bf-493c-b72a-b73c120dc895",
         "title": "Yetkazib berish"
     },
     {
         "id": 3,
-        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/online-shop-api-ee5b5.appspot.com/o/3.png?alt=media&token=c35d6f86-6100-4276-ac0c-f2f99c4300d0",
+        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/korona-taxi-ef833.appspot.com/o/3.png?alt=media&token=57663915-71b4-49b8-be34-f6d06de0f01d",
         "title": "Manzil olish"
     },
     {
         "id": 4,
-        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/online-shop-api-ee5b5.appspot.com/o/4.png?alt=media&token=d139ce7f-28ad-4999-80b6-576a85ca7236",
+        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/korona-taxi-ef833.appspot.com/o/4.png?alt=media&token=80e2aa47-5d86-46f4-8672-39496ff03da3",
         "title": "Taksi sayohatlari"
     }
 ]

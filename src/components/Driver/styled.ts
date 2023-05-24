@@ -14,11 +14,25 @@ const MenuWrapper = styled.div`
   padding: 30px;
   background: #ffffff;
   border: 1px solid #ccc;
+  .buttun__box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+  }
 `;
 const Section = styled.div`
   margin-bottom: 20px;
   display: flex;
   gap: 30px;
+  div {
+    display: flex;
+    align-items: center;
+    span {
+      padding: 0 10px;
+    }
+  }
 `;
 
 export {DriverContainer, MenuWrapper, Section}

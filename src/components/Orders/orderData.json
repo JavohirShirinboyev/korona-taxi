@@ -1,22 +1,38 @@
 [
     {
         "id": 1,
-        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/online-shop-api-ee5b5.appspot.com/o/1.png?alt=media&token=d9af925f-4e8c-485c-9d51-38e9b26d4e3b",
-        "title": "24 soat xizmat ko'rsatish"
+        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/korona-taxi-ef833.appspot.com/o/12.png?alt=media&token=9e05d6f7-590c-41a9-86ac-057df2253a62",
+        "title": "Samarqand - Qo'shrabot",
+        "time": "8:00",
+        "car": "Spark",
+        "boshjoy": 2,
+        "price": 35000,
+        "name": "Sardor",
+        "phone": "+9989940076678",
+        "userName": "javohir_sf"
     },
     {
         "id": 2,
-        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/online-shop-api-ee5b5.appspot.com/o/2.png?alt=media&token=7f2b7145-7073-4d42-a928-39dc15b7b97f",
-        "title": "Yetkazib berish"
+        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/korona-taxi-ef833.appspot.com/o/orderImg.jpg?alt=media&token=337171a3-97b5-4559-a6f3-3d9f59ed60d1",
+        "title": "Ishtixon - Payariq",
+        "time": "16:30",
+        "car": "Nexia 3",
+        "boshjoy": 4,
+        "price": 25000,
+        "name": "Nuriddin",
+        "phone": "+9989940067789",
+        "userName": "user123321"
     },
     {
         "id": 3,
-        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/online-shop-api-ee5b5.appspot.com/o/3.png?alt=media&token=c35d6f86-6100-4276-ac0c-f2f99c4300d0",
-        "title": "Manzil olish"
-    },
-    {
-        "id": 4,
-        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/online-shop-api-ee5b5.appspot.com/o/4.png?alt=media&token=d139ce7f-28ad-4999-80b6-576a85ca7236",
-        "title": "Taksi sayohatlari"
+        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/korona-taxi-ef833.appspot.com/o/12.png?alt=media&token=9e05d6f7-590c-41a9-86ac-057df2253a62",
+        "title": "Nurobot - Samarqand",
+        "time": "6:00",
+        "car": "Cobalt",
+        "boshjoy": 2,
+        "price": 30000,
+        "name": "Sanjar",
+        "phone": "+9989940063399",
+        "userName": "user1233234"
     }
 ]

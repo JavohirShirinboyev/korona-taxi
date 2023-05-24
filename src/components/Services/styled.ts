@@ -37,6 +37,10 @@ const Card = styled.div`
   padding: 1.5rem 0;
   border: 1px solid black;
   margin-bottom: 1rem;
+  border-radius: 7px;
+  height: 200px;
+  width: 220px;
+  cursor: pointer;
 `;
 
 const CardImg = styled.img`

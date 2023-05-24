@@ -1,17 +1,15 @@
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
+import {getDatabase} from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCqD0pt4g8Gr_8PAahXEttSRCiC6PxEz3g",
-  authDomain: "fir-auth-3d417.firebaseapp.com",
-  projectId: "fir-auth-3d417",
-  storageBucket: "fir-auth-3d417.appspot.com",
-  messagingSenderId: "315667400873",
-  appId: "1:315667400873:web:0f6a9434827d612d5741b8",
+  apiKey: "AIzaSyAT9kOrSjd24p34WX2mrunBmLW7Ma5ijqE",
+  authDomain: "korona-taxi-ef833.firebaseapp.com",
+  projectId: "korona-taxi-ef833",
+  storageBucket: "korona-taxi-ef833.appspot.com",
+  messagingSenderId: "651502423878",
+  appId: "1:651502423878:web:34d738e5a0f77a86a99f47"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-
-export default auth;
+export const db = getDatabase(app)
