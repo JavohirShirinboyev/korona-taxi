@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate, Link, useNavigation } from "react-router-dom";
 import { Container, LoginBox, RadioContainer } from "./styled";
 import Input from "../Generic/Input";
 import Button from "../Generic/Button";
@@ -14,7 +14,7 @@ const SignUp = () => {
   const [isStatus, setIsStatus] = useState(false);
 
   const register = () => {
-    console.log(name, email, password, restPassword, isStatus);
+    navigate("/")
   };
 
   return (
@@ -61,7 +61,6 @@ const SignUp = () => {
         <Button onClick={register} width={250} height={40}>
           Ro'yxatdan o'tish
         </Button>
-        <Link to="/">Kirish</Link>
       </LoginBox>
     </Container>
   );

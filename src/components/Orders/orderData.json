@@ -9,7 +9,7 @@
         "price": 35000,
         "name": "Sardor",
         "phone": "+9989940076678",
-        "userName": "javohir_sf"
+        "userName": "https://t.me/javohir_sf"
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "price": 25000,
         "name": "Nuriddin",
         "phone": "+9989940067789",
-        "userName": "user123321"
+        "userName": "https://t.me/javohir_sf"
     },
     {
         "id": 3,
@@ -33,6 +33,6 @@
         "price": 30000,
         "name": "Sanjar",
         "phone": "+9989940063399",
-        "userName": "user1233234"
+        "userName": "https://t.me/javohir_sf"
     }
 ]

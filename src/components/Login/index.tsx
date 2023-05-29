@@ -10,10 +10,6 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const signIn = () => {
-    console.log(email, password);
-  };
-
   return (
     <Container>
       <LoginBox>
@@ -33,12 +29,12 @@ const Login = () => {
           autoComplete="off"
           onChange={(e) => setPassword(e.target.value)}
         />
-        <Button onClick={signIn} width={250} height={40}>
+        <Button onClick={() => navigate("/home")} width={250} height={40}>
           Kirish
         </Button>
-        <NavLink to="/signup">
+        <Button onClick={() => navigate("/signup")} width={250} height={40}>
           Ro'yxatdan o'tish
-        </NavLink>
+        </Button>
       </LoginBox>
     </Container>
   );

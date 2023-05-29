@@ -34,15 +34,14 @@ const Order = ({...props}) => {
     setCount(count + 1)
   }
 
+  const phoneNumberCall = () => {
+    window.location.href = "tel: +9989940076678"
+  }
   const navigate = useNavigate();
   return (
     <Container>
       <ImgContainer>
         <Img src={props.imgSrc} />
-        <Contactbox>
-          <Icons.AiFillPhone />
-          <Icons.FaTelegramPlane />
-        </Contactbox>
       </ImgContainer>
       <PaddingBox>
         <Title>{props.title}</Title>
@@ -69,17 +68,11 @@ const Order = ({...props}) => {
             </SubTitle>
           </Box>
         </Content>
-        <BottomTitle>Yo'lovchilar sonini kiriting:</BottomTitle>
         <BottomContainer>
-          <div>
-            <Button onClick={decrement}>-</Button>
-            <span>{count}</span>
-            <Button onClick={() => setCount(count + 1)} color="primary">+</Button>
-          </div>
           <OrderButton
             width={150}
             height={35}
-            onClick={() => navigate("/home")}
+            onClick={() => window.location.href = `tel: ${props.phone}`}
           />
         </BottomContainer>
       </PaddingBox>

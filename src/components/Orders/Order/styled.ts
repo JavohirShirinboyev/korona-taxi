@@ -3,7 +3,7 @@ import { AiFillPhone } from "react-icons/ai";
 import { FaTelegramPlane } from "react-icons/fa";
 
 const Container = styled.div`
-  width: 380px;
+  width: 350px;
   height: 500px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -27,9 +27,6 @@ const Img = styled.img`
   object-fit: cover;
   position: absolute;
   z-index: 1;
-  :hover {
-    z-index: -10;
-  }
 `;
 
 const Contactbox = styled.div`
@@ -38,12 +35,11 @@ const Contactbox = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: -1;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
+  z-index: 10;
 `;
 
 const Title = styled.h1`
@@ -84,10 +80,11 @@ const BottomTitle = styled.h3`
 const BottomContainer = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   span {
     padding: 0 10px;
   }
+  margin-top: 20px;
 `;
 
 const PaddingBox = styled.div`

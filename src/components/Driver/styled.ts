@@ -25,6 +25,9 @@ const MenuWrapper = styled.div`
 const Section = styled.div`
   margin-bottom: 20px;
   display: flex;
+  @media screen and (max-width: 567px) {
+    flex-direction: column;
+  }
   gap: 30px;
   div {
     display: flex;

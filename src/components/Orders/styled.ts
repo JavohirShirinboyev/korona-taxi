@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const ContainerOrders = styled.div`
-    padding: 50px 0;
+    padding: 20px 0;
 `;
 
 const OrdersBlock = styled.div`
